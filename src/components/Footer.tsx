@@ -1,5 +1,8 @@
 import { motion } from 'motion/react';
 import { Code2, Mail, Linkedin, Twitter, Github, Globe } from 'lucide-react';
+import {ImageWithFallback} from "./figma/ImageWithFallback";
+import image_71161ba1f46582e41af3d434cfed8194c7c7b389 from 'figma:asset/71161ba1f46582e41af3d434cfed8194c7c7b389.png';
+
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -62,11 +65,16 @@ export function Footer() {
               transition={{ duration: 0.6 }}
             >
               <div className="flex items-center gap-2 mb-4">
-                <Code2 className="w-8 h-8" />
-                <span className="text-xl font-semibold">SMPS Consultancy</span>
+                {/*<Code2 className="w-8 h-8" />*/}
+                {/*<span className="text-xl font-semibold">SMPS Consultancy</span>*/}
+                <ImageWithFallback
+                    src={image_71161ba1f46582e41af3d434cfed8194c7c7b389}
+                    alt="SMPS Consultancy Logo"
+                    className="h-48 w-48 object-contain rounded"
+                />
               </div>
               <p className="text-primary-foreground/70 mb-6 max-w-sm">
-                Engineering digital evolution for high-stakes enterprise. Delivering technical leadership and measurable business value since 2016.
+                We modernize core infrastructure for established organizations, replacing manual friction with automated flow to bridge the gap between strategy and execution. Delivering technical leadership and measurable business value since 2016.
               </p>
               
               {/* Social Links */}

@@ -60,7 +60,7 @@ export function Technologies() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl mb-4 text-primary">Technologies We Master</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl mb-4 text-primary">Technologies er work with</h2>
           <p className="text-lg text-foreground/70 max-w-3xl mx-auto">
             Leveraging cutting-edge technologies to deliver robust, scalable solutions
           </p>

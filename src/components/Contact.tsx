@@ -42,12 +42,12 @@ export function Contact() {
       value: 'info@smps-consultancy.com',
       link: 'mailto:info@smps-consultancy.com'
     },
-    {
-      icon: Phone,
-      title: 'Phone',
-      value: '+44 (0) XXX XXX XXXX',
-      link: 'tel:+44XXXXXXXXXX'
-    },
+    // {
+    //   icon: Phone,
+    //   title: 'Phone',
+    //   value: '+44 (0) XXX XXX XXXX',
+    //   link: 'tel:+44XXXXXXXXXX'
+    // },
     {
       icon: MapPin,
       title: 'Location',

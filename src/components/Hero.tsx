@@ -83,7 +83,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6 text-primary max-w-5xl mx-auto leading-tight"
           >
-            Engineering Digital Evolution for High-Stakes Enterprise
+            From Vision to Execution
           </motion.h1>
 
           {/* Subtitle */}
@@ -93,7 +93,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-lg sm:text-xl md:text-2xl text-foreground/70 mb-12 max-w-3xl mx-auto"
           >
-            SMPS Consultancy provides the technical leadership necessary for high-stakes digital evolution. From architecting core banking systems to scaling enterprise AI/ML initiatives, we engineer high-performance software designed to drive measurable business value.
+            We provide the technical leadership necessary for digital evolution. From architecting core banking systems to scaling enterprise AI/ML initiatives, we engineer high-performance software designed to drive measurable business value.
           </motion.p>
 
           {/* CTA Buttons */}

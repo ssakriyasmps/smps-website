@@ -35,7 +35,7 @@ export function About() {
           <motion.div variants={itemVariants} className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl mb-4 text-primary">About SMPS Consultancy</h2>
             <p className="text-lg text-foreground/70 max-w-3xl mx-auto">
-              We specialise in technology consulting, partnering with established organisations to modernise their core DNA.
+              We modernize core infrastructure for established organizations, replacing manual friction with automated flow to bridge the gap between strategy and execution.
             </p>
           </motion.div>
 
@@ -64,7 +64,7 @@ export function About() {
                   <h3 className="text-2xl text-primary">Mission</h3>
                 </div>
                 <p className="text-foreground/70 leading-relaxed">
-                  We specialise in digital transformation, partnering with established organisations to modernise their core DNA, replacing manual friction with automated flow. By bridging the gap between high-level strategy and daily execution, we build the systems that work and the cultures that last.
+                  Leading established businesses through seamless digital transformation, we replace operational friction with smart automation. This ensures strategy translates directly into daily execution, resulting in robust systems and enduring company cultures designed for the future.
                 </p>
               </Card>
             </motion.div>
@@ -78,7 +78,7 @@ export function About() {
                 <h3 className="text-2xl">What We Do</h3>
               </div>
               <p className="text-lg leading-relaxed opacity-90">
-                SMPS Consultancy provides the technical leadership necessary for high-stakes digital evolution. From architecting core banking systems to scaling enterprise AI/ML initiatives, we engineer high-performance software designed to drive measurable business value. We've worked with public & private sector clients across financial services, healthcare, and government sectors.
+                We provide the technical leadership necessary for digital evolution. From architecting core banking systems to scaling enterprise AI/ML initiatives, we engineer high-performance software designed to drive measurable business value. We've worked with public & private sector clients across financial services, healthcare, and government sectors.
               </p>
             </Card>
           </motion.div>
